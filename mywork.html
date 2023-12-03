@@ -25,26 +25,38 @@
             <li><a href="mywork.html">Sample Projects</a></li>
         </ul>
     </nav>
-
+    <img src="assets/img/pexels-felix-mittermeier-956998.jpg" alt="background image" style="width: 100%">
 </header>
-<main>
+<main class="grid grid-rows-2 grid-cols-2">
 
-    <article>
-        <h2>Proin porttitor</h2>
-        <p>Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales.</p>
-
+    <article class="row-start-1 col-start-2 p-5">
+        <h2>Explore My Work</h2>
+        <p>"Welcome to a glimpse of my portfolio – a showcase featuring one of my recent sample projects that highlights the progression of my development skills. Web development demands a fusion of technical proficiency and creativity, and this project is a testament to that blend. While my portfolio is in its early stages, I am genuinely excited about the future and eager to witness the accomplishments that lie ahead. Stay tuned to see the growth and innovation that unfolds in my journey."</p>
     </article>
 
-    <article>
-        <h2>Proin porttitor</h2>
-        <p>Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales.</p>
-
+    <article class="row-start-2 col-start-1 p-5">
+        <h2>Overcoming Hurdles </h2>
+        <p>In the world of project development, there are always difficulties to overcome, and each challenge is a chance to learn and improve. One big challenge I faced in my project was dealing with technical problems, especially when working with the API. Believing in the idea that we're always learning, I tackled the issue directly. I took the opportunity to do thorough research and ask for help, recognizing the importance of constantly learning and working together to navigate the complex world of development. The journey had its ups and downs, but it showed me how important it is to be resilient and resourceful for a successful development experience.</p>
     </article>
 
-    <article>
-        <h2>Proin porttitor</h2>
-        <p>Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales.</p>
-        <img src="assets/img/test_image_myworks.jpg" alt="Test image for myworks">
+    <article class="row-start-2 col-start-2 p-5">
+        <h2>A Projects Sample (Random Facts)</h2>
+        <p>The project is a random facts article powered by an API, for which I utilize Java to make the calls and generate random facts dynamically. Its simplicity lies in user-friendliness; just input the number of facts you're interested in, and it will provide you with a collection of intriguing random facts. Give it a try and discover some cool and fascinating tidbits!</p>
+
+        <div class="facts-gen">
+            <h2>NINJA-API'S RANDOM FACTS</h2>
+
+            <form id="FactsAPI">
+                <label for="inputNumber">Number of Facts</label>
+                <input type="number" id="inputNumber" name="inputNumber" min="1" required>
+                <button type="submit">Show me facts</button>
+            </form>
+
+            <p>
+                Here are some random facts:
+            </p>
+            <div id="response"> </div>
+        </div>
 
     </article>
 
@@ -63,5 +75,6 @@
     </ul>
     <p>Copyright 2023. Daniel Mulenga</p>
 </footer>
+<script src="assets/js/sampleprojects.js"></script>
 </body>
 </html>

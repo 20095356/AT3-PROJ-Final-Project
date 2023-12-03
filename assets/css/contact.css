@@ -29,6 +29,10 @@ nav li {
     margin: 4px 0;
 
 }
+/*
+nav {
+    display: none;
+}*/
 main {
     padding: 20px;
     flex-grow: 1;
@@ -79,46 +83,21 @@ input[type=submit]:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 768px) {
 
 
     header {
 
     }
-
+    main {
+        padding: 50px 10px;
+    }
     nav {
         display: block;
     }
-
-
-
-
-
-
-
-
-
-
-
+    .hamburger-menu, .bar{
+        display: none;
+    }
 
 
 }

@@ -35,6 +35,11 @@ main {
     margin: auto;
 
 }
+.facts-gen{
+    border-style: groove;
+    margin: 10px;
+    padding: 10px;
+}
 
 body {
     display: flex;
@@ -74,6 +79,10 @@ ul.footer-menu {
 
     nav {
         display: block;
+    }
+    form {
+        flex-direction: row;
+        justify-content: space-between;
     }
 
 

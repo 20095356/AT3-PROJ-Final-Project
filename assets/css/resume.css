@@ -41,6 +41,10 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+.image1 {
+    max-width: 300px;
+    max-height: 300px;
+}
 footer {
     background-color: #22223B;
     color: #F2E9E4;

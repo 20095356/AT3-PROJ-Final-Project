@@ -41,6 +41,12 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto;
+    padding: 5px;
+}
 footer {
     background-color: #22223B;
     color: #F2E9E4;
