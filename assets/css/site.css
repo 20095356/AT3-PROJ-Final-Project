@@ -665,6 +665,12 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+@media not all and (min-width: 768px) {
+  .max-md\:block {
+    display: block;
+  }
+}
+
 @media not all and (min-width: 640px) {
   .max-sm\:block {
     display: block;
